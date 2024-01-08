@@ -152,7 +152,7 @@ nav {
 
 .container7 {
   text-align: left;
-  margin-top: 17rem;
+  margin-top: 10rem;
   margin-right: 25rem;
   margin-bottom: 10rem;
   margin-left: 25rem;
@@ -163,6 +163,15 @@ nav {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.footer {
+  text-align: left;
+  margin-top: 10rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  background-image: url(img/silke.webp);
+}
 .grid_cv {
   display: flex;
   justify-content: space-between;
@@ -185,6 +194,11 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .image-container {

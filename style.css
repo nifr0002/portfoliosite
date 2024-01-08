@@ -22,9 +22,17 @@ h2 {
   margin-bottom: 5rem;
 }
 
+.h3_footer {
+  text-align: center;
+}
+
 p {
   font-family: "Alice", serif;
   line-height: 2;
+}
+
+.p_footer {
+  text-align: center;
 }
 
 .nav-links {
