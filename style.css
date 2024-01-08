@@ -64,3 +64,7 @@ p {
 .web_knap:hover {
   background-color: #ffff;
 }
+
+.link_web {
+  text-decoration: color(#d0c0ac);
+}

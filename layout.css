@@ -28,6 +28,7 @@ nav {
   background-position: center;
   position: relative;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -70,7 +71,47 @@ nav {
 }
 
 .container4 {
-  margin-top: 10rem;
+  text-align: left;
+  margin-top: 17rem;
+  margin-right: 25rem;
+  margin-bottom: 10rem;
+  margin-left: 25rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.container5 {
+  text-align: left;
+  margin-top: 17rem;
+  margin-right: 25rem;
+  margin-bottom: 10rem;
+  margin-left: 25rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.container6 {
+  text-align: left;
+  margin-top: 17rem;
+  margin-right: 25rem;
+  margin-bottom: 10rem;
+  margin-left: 25rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.container7 {
+  text-align: left;
+  margin-top: 17rem;
   margin-right: 25rem;
   margin-bottom: 10rem;
   margin-left: 25rem;
@@ -84,6 +125,30 @@ nav {
 .grid_cv {
   display: flex;
   justify-content: space-between;
+}
+
+.grid_web {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px; /* Juster margenen mellem billederne */
+  justify-content: center;
+  /*display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;*/
+}
+
+.grid_ux {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.grid_animation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .image-container {
@@ -105,4 +170,41 @@ nav {
   margin-left: 15rem;
   border-radius: 3%;
   z-index: 1;
+}
+
+.min_com {
+  width: 80%;
+  height: 500px;
+  margin-left: 10rem;
+  margin-bottom: 1.5rem;
+}
+
+.galleri {
+  width: 80%;
+  height: 500px;
+  margin-left: 10rem;
+}
+
+.komponenter {
+  width: 80%;
+  height: 500px;
+  margin-bottom: 1.5rem;
+}
+
+.operativsystemer {
+  width: 80%;
+  height: 500px;
+}
+
+.grid_ux img {
+  width: 100%;
+}
+
+.grid_animation img {
+  width: 100%;
+}
+
+.assets {
+  width: 100%;
+  height: 250px;
 }
