@@ -9,7 +9,8 @@ nav {
 h1 {
   font-family: "Noto Serif Display", serif;
   font-size: 40px;
-  color: #a99a88;
+  color: #89735f;
+  /*color: #a99a88;*/
   line-height: 1.7;
 }
 
@@ -22,6 +23,11 @@ h2 {
   margin-bottom: 5rem;
 }
 
+h3 {
+  text-align: left;
+  color: #89735f;
+}
+
 .h3_footer {
   text-align: center;
 }
@@ -29,6 +35,7 @@ h2 {
 p {
   font-family: "Alice", serif;
   line-height: 2;
+  text-align: left;
 }
 
 .p_footer {
