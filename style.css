@@ -23,6 +23,10 @@ h2 {
   margin-bottom: 5rem;
 }
 
+.h2_indhold {
+  margin-top: 7rem;
+}
+
 h3 {
   text-align: left;
   color: #89735f;
@@ -30,6 +34,16 @@ h3 {
 
 .h3_footer {
   text-align: center;
+}
+
+.h3_indhold {
+  margin-left: 2rem;
+  position: relative;
+  top: -30px;
+}
+
+.h3_indhold2 {
+  margin-top: 5rem;
 }
 
 p {
@@ -52,39 +66,106 @@ p {
   font-size: 45px;
 }
 
-#myButton2 {
-  margin-top: 30px;
-  text-align: center;
+a {
+  text-decoration: none;
+  font-weight: 700;
 }
 
-.om_mig_knap {
+a:visited {
+  color: inherit; /* eller angiv din ønskede farve, f.eks. color: #000; */
+}
+
+@media (min-width: 844px) {
+.ommig_knap {
+  font-family: "Noto Serif Display", serif;
   background-color: #d0c0ac;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 10%;
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 20px 30px;
+  width: 18%;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
   cursor: pointer;
-  width: 20%;
-  text-align: center;
+  outline: none;
 }
 
-.om_mig_knap:hover {
+.ommig_knap:hover {
   background-color: #ffff;
 }
 
 .web_knap {
+  font-family: "Noto Serif Display", serif;
   background-color: #d0c0ac;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 10%;
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 20px 30px;
+  width: 18%;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
   cursor: pointer;
-  width: 20%;
-  text-align: center;
+  outline: none;
 }
 
 .web_knap:hover {
   background-color: #ffff;
 }
 
+.uxui_knap {
+  font-family: "Noto Serif Display", serif;
+  background-color: #d0c0ac;
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 20px 30px;
+  width: 18%;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.uxui_knap:hover {
+  background-color: #ffff;
+}
+
+.animation_knap {
+  font-family: "Noto Serif Display", serif;
+  background-color: #d0c0ac;
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 20px 30px;
+  width: 18%;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.animation_knap:hover {
+  background-color: #ffff;
+}
+
+.indhold_knap {
+  font-family: "Noto Serif Display", serif;
+  background-color: #d0c0ac;
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 20px 30px;
+  width: 18%;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.indhold_knap:hover {
+  background-color: #ffff;
+}
+}
 .link_web {
   text-decoration: color(#d0c0ac);
 }

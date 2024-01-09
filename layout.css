@@ -63,6 +63,9 @@ nav {
   }
 }
 
+.knapper {
+  text-align: center;
+}
 .hero {
   text-align: center;
   height: 900px;
@@ -80,7 +83,7 @@ nav {
   height: 100%;
 }
 
-@media (min-width: 844px) {
+@media (min-width: 800px) {
   .container1 {
     margin-top: 15rem;
     margin-right: 25rem;
@@ -105,13 +108,11 @@ nav {
   }
 
   .container3 {
-    text-align: left;
     margin-top: 5rem;
-    margin-left: 15rem;
+    margin-left: 20rem;
     margin-bottom: 80rem;
-    padding: 80px;
+    padding: 60px;
     background-color: rgba(255, 255, 255, 0.6);
-    max-width: 800px;
   }
 
   .container4 {
@@ -171,6 +172,7 @@ nav {
   .grid_cv {
     display: flex;
     justify-content: space-between;
+    margin: 2rem;
   }
 
   .grid_web {
@@ -178,59 +180,64 @@ nav {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*lavet med chat-gpt*/
     gap: 20px;
     justify-content: center;
+    margin: 2rem;
   }
 
   .grid_ux {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    margin: 2rem;
   }
 
   .grid_animation {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    margin: 2rem;
   }
 
   .grid_indhold {
     display: grid;
     grid-template-columns: 2fr 2fr;
-  }
-
-  footer {
-    text-align: left;
+    margin: 2rem;
     margin-top: 20rem;
-    padding-top: 2rem;
-    padding-right: 5rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
-    background-image: url(img/silke.webp);
   }
+}
 
-  .footer_indhold {
-    text-align: left;
-    margin-top: 70rem;
-    padding-top: 2rem;
-    padding-right: 5rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
-    background-image: url(img/silke.webp);
-  }
+footer {
+  text-align: left;
+  margin-top: 20rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  background-image: url(img/silke.webp);
+}
 
-  .footer_om {
-    text-align: left;
-    margin-top: 30rem;
-    padding-top: 2rem;
-    padding-right: 5rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
-    background-image: url(img/silke.webp);
-  }
+.footer_indhold {
+  text-align: left;
+  margin-top: 190rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  background-image: url(img/silke.webp);
+}
 
-  .grid_footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+.footer_om {
+  text-align: left;
+  margin-top: 30rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  background-image: url(img/silke.webp);
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .image-container {
@@ -240,50 +247,124 @@ nav {
 }
 
 .mig_img {
-  margin-left: 28rem;
+  margin-left: 25rem;
   z-index: 1;
   width: 30%;
   border-radius: 3%;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .cosmoogjeg_img {
   width: 30%;
   margin-bottom: 60rem;
-  margin-left: 15rem;
+  margin-left: 10rem;
   border-radius: 3%;
   z-index: 1;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.amarilla1_img {
+  margin-top: 2rem;
+  margin-right: 20rem;
+  margin-left: 5rem;
+  width: 40%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.amarilla2_img {
+  width: 40%;
+  margin-left: 27rem;
+  position: relative;
+  top: -190px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.frisør1_img {
+  width: 90%;
+  position: relative;
+  top: -15px;
+  max-width: 100%;
+}
+
+.frisør2_img {
+  width: 90%;
+  position: relative;
+  max-width: 100%;
+}
+
+.frisør3_img {
+  width: 100%;
+  position: relative;
+  margin-top: 2rem;
+  max-width: 100%;
+}
+
+.gammelweb1_img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.gammelweb2_img {
+  width: 87%;
+  margin-top: 30rem;
+  max-width: 100%;
 }
 
 .min_com {
-  width: 80%;
+  width: 90%;
   height: 500px;
-  margin-left: 10rem;
+  margin-left: 5rem;
   margin-bottom: 1.5rem;
+  max-width: 100%;
+  
+  display: block;
+  align-self: stretch;
 }
 
 .galleri {
-  width: 80%;
+  width: 90%;
   height: 500px;
-  margin-left: 10rem;
+  margin-left: 5rem;
+  max-width: 100%;
+  
+  display: block;
+  align-self: stretch;
 }
 
 .komponenter {
-  width: 80%;
+  width: 90%;
   height: 500px;
   margin-bottom: 1.5rem;
+  max-width: 100%;
+  
+  display: block;
+  align-self: stretch;
 }
 
 .operativsystemer {
-  width: 80%;
+  width: 90%;
   height: 500px;
+  max-width: 100%;
+  
+  display: block;
+  align-self: stretch;
 }
 
 .grid_ux img {
   width: 100%;
+  max-width: 100%;
 }
 
 .grid_animation img {
   width: 100%;
+  max-width: 100%;
 }
 
 video {
