@@ -10,7 +10,6 @@ h1 {
   font-family: "Noto Serif Display", serif;
   font-size: 40px;
   color: #89735f;
-  /*color: #a99a88;*/
   line-height: 1.7;
 }
 
@@ -72,100 +71,100 @@ a {
 }
 
 a:visited {
-  color: inherit; /* eller angiv din ønskede farve, f.eks. color: #000; */
+  color: inherit;
 }
 
 @media (min-width: 844px) {
-.ommig_knap {
-  font-family: "Noto Serif Display", serif;
-  background-color: #d0c0ac;
-  font-size: 15px;
-  margin-right: 10px;
-  padding: 20px 30px;
-  width: 18%;
-  border: none;
-  border-radius: 20px;
-  color: #fff;
-  cursor: pointer;
-  outline: none;
-}
+  .ommig_knap {
+    font-family: "Noto Serif Display", serif;
+    background-color: #d0c0ac;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 20px 30px;
+    width: 18%;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
 
-.ommig_knap:hover {
-  background-color: #ffff;
-}
+  .ommig_knap:hover {
+    background-color: #ffff;
+  }
 
-.web_knap {
-  font-family: "Noto Serif Display", serif;
-  background-color: #d0c0ac;
-  font-size: 15px;
-  margin-right: 10px;
-  padding: 20px 30px;
-  width: 18%;
-  border: none;
-  border-radius: 20px;
-  color: #fff;
-  cursor: pointer;
-  outline: none;
-}
+  .web_knap {
+    font-family: "Noto Serif Display", serif;
+    background-color: #d0c0ac;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 20px 30px;
+    width: 18%;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
 
-.web_knap:hover {
-  background-color: #ffff;
-}
+  .web_knap:hover {
+    background-color: #ffff;
+  }
 
-.uxui_knap {
-  font-family: "Noto Serif Display", serif;
-  background-color: #d0c0ac;
-  font-size: 15px;
-  margin-right: 10px;
-  padding: 20px 30px;
-  width: 18%;
-  border: none;
-  border-radius: 20px;
-  color: #fff;
-  cursor: pointer;
-  outline: none;
-}
+  .uxui_knap {
+    font-family: "Noto Serif Display", serif;
+    background-color: #d0c0ac;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 20px 30px;
+    width: 18%;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
 
-.uxui_knap:hover {
-  background-color: #ffff;
-}
+  .uxui_knap:hover {
+    background-color: #ffff;
+  }
 
-.animation_knap {
-  font-family: "Noto Serif Display", serif;
-  background-color: #d0c0ac;
-  font-size: 15px;
-  margin-right: 10px;
-  padding: 20px 30px;
-  width: 18%;
-  border: none;
-  border-radius: 20px;
-  color: #fff;
-  cursor: pointer;
-  outline: none;
-}
+  .animation_knap {
+    font-family: "Noto Serif Display", serif;
+    background-color: #d0c0ac;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 20px 30px;
+    width: 18%;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
 
-.animation_knap:hover {
-  background-color: #ffff;
-}
+  .animation_knap:hover {
+    background-color: #ffff;
+  }
 
-.indhold_knap {
-  font-family: "Noto Serif Display", serif;
-  background-color: #d0c0ac;
-  font-size: 15px;
-  margin-right: 10px;
-  padding: 20px 30px;
-  width: 18%;
-  border: none;
-  border-radius: 20px;
-  color: #fff;
-  cursor: pointer;
-  outline: none;
-}
+  .indhold_knap {
+    font-family: "Noto Serif Display", serif;
+    background-color: #d0c0ac;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 20px 30px;
+    width: 18%;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
 
-.indhold_knap:hover {
-  background-color: #ffff;
-}
+  .indhold_knap:hover {
+    background-color: #ffff;
+  }
 }
 .link_web {
-  text-decoration: color(#d0c0ac);
+  color: #89735f;
 }
